@@ -52,7 +52,7 @@ li a:hover {
     color: white;
 }
 
-#home, #serviços, #quem_somos, #projetos, #contatos {
+#home, #servicos, #quem_somos, #projetos, #contatos {
 	margin: 0px 10px 10px 260px;
 	padding: 10px;
 	background-color: #f1f1f1;
@@ -73,6 +73,7 @@ h2 {
    display: block; 
    height: 0; 
    clear: both;
+   border-radius: 10px;
 }
 
 
