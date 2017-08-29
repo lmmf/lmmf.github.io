@@ -57,14 +57,11 @@
 				<p>Jussara: <a class="phone" href="tel:(16) 9-9999-9999">(16) 9-9999-9999</a></p>
 				<br>
 				<h2>Formulário para contato:</h2>
-				<form id="form_email" method="post">
-					<input type="text" name="nome" id="email_nome" placeholder="Seu nome"><br>
-					<input type="email" name="email" id="email_email" placeholder="Seu email"><br>
-					<input type="text" name="assunto" id="email_assunto" placeholder="O assunto"><br>
-					<textarea name="textarea" style="width:250px;height:150px;"></textarea>
+				<form action="http://formspree.io/oca@ocarp.com.br" method="POST">
+					<input type="email" name="_replyto" placeholder="Seu email"><br>
+					<textarea name="body" style="width:250px;height:150px;"></textarea><br>
+					<button type="submit">Enviar</button>
 				</form>
-				<br>
-				<button onclick="enviar_email()">Enviar</button>
 			</div>
 			<div style="float: right;margin-right: 20px">
 				<h2>Email:</h2>
