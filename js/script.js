@@ -175,22 +175,11 @@ jQuery(function ($) {
 
         function initialize() {
             var myLatlng = new google.maps.LatLng(-21.189202,-47.8199871);
-            var mapOptions = {/*
+            var mapOptions = {
                 zoom: 15,
                 scrollwheel: false,
                 center: myLatlng,
-                styles:[
-                    { featureType: "water", stylers: [ { hue: "#000"},{"saturation": -100}, {
-                    "gamma": 2.15}, {"lightness": -12} ] },
-
-                    { featureType: "road", stylers: [ { hue: "#000" }, {"saturation": -100}, {
-                    "gamma": 2.15}, {"lightness": -12} ] },
-
-                    {featureType: 'landscape.natural',elementType: 'all',stylers: [
-                        { hue: '#000' },{ lightness: -12 },{"saturation": -100}, {
-                    "gamma": 2.15}, {"lightness": 12}  ] }
-                ],
-                mapTypeId: google.maps.MapTypeId.ROADMAP*/
+                mapTypeId: google.maps.MapTypeId.ROADMAP
             }
 
             var map = new google.maps.Map(document.getElementById('mapCanvas'), mapOptions);
