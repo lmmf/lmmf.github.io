@@ -176,7 +176,7 @@ jQuery(function ($) {
         function initialize() {
             var myLatlng = new google.maps.LatLng(-21.189202,-47.81943990000002);
             var mapOptions = {
-                zoom: 15,
+                zoom: 10,
                 scrollwheel: false,
                 center: myLatlng,
                 mapTypeId: google.maps.MapTypeId.ROADMAP
@@ -188,7 +188,7 @@ jQuery(function ($) {
                 position: myLatlng,
                 map: map,
                 animation: google.maps.Animation.DROP,
-                title: 'Steellex Inc.'
+                title: 'OCA Construtora'
             });
 
             var contentString = '' +
