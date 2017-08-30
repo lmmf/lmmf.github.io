@@ -176,7 +176,7 @@ jQuery(function ($) {
         function initialize() {
             var myLatlng = new google.maps.LatLng(-21.189202,-47.81943990000002);
             var mapOptions = {
-                zoom: 10,
+                zoom: 20,
                 scrollwheel: false,
                 center: myLatlng,
                 mapTypeId: google.maps.MapTypeId.ROADMAP
