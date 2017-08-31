@@ -533,7 +533,7 @@ offcanvas-menu
 
 .offcanvas-menu .close {
   position: absolute;
-  right: 0;
+  left: 0;
   color: #fff;
   text-shadow: none;
   filter: alpha(opacity=100);
